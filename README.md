@@ -14,7 +14,13 @@ with this **python** library is the sequence:
 
     product.kart.customer(id='3', name='foo')
 
-## get()
+## Installation
+
+    pip install restapicall
+
+## Usage
+
+### get()
 
 You can perform the request (Cf. http://docs.python-requests.org/) with `get()`:
 
@@ -28,7 +34,7 @@ You can perform the request (Cf. http://docs.python-requests.org/) with `get()`:
     >>> r.headers['content-type']
     'text/html; charset=UTF-8'
 
-## get_url()
+### get_url()
 
 the url can be get by `get_url()`:
 
